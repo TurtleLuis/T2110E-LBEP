@@ -19,27 +19,21 @@ int main(){
 					switch(month) {
 						case 1:
 							dayMax = day;
-							printf("Thang %d la thang co 31 ngay! \n", month);
 							break;
 						case 3:
 							dayMax = day + 31 + 29;
-							printf("Thang %d la thang co 31 ngay! \n", month);
 							break;
 						case 5:
 							dayMax = day + 31*2 + 29 + 30;
-							printf("Thang %d la thang co 31 ngay! \n", month);
 							break;
 						case 7:
 							dayMax = day + 31*3 + 29 + 30*2;
-							printf("Thang %d la thang co 31 ngay! \n", month);
 							break;
 						case 8:
 							dayMax = day + 31*4 + 29 + 30*2;
-							printf("Thang %d la thang co 31 ngay! \n", month);
 							break;
 						case 10:
 							dayMax = day + 31*5 + 29 + 30*3;
-							printf("Thang %d la thang co 31 ngay! \n", month);
 							break;
 						case 12:
 							dayMax = day + 31*6 + 29 + 30*4;
@@ -48,15 +42,12 @@ int main(){
 							break;
 						case 4:
 							dayMax = day + 31*2 + 29;
-							printf("Thang %d la thang co 30 ngay! \n", month);
 							break;
 						case 6:
 							dayMax = day + 31*3 + 29 + 30;
-							printf("Thang %d la thang co 30 ngay! \n", month);
 							break;
 						case 9:
 							dayMax = day + 31*5 + 29 + 30*2;
-							printf("Thang %d la thang co 30 ngay! \n", month);
 							break;
 						case 11:
 							dayMax = day + 31*6 + 29 + 30*3;
@@ -79,27 +70,21 @@ int main(){
 					switch(month) {
 						case 1:
 							dayMax = day;
-							printf("Thang %d la thang co 31 ngay! \n", month);
 							break;
 						case 3:
 							dayMax = day + 31 + 28;
-							printf("Thang %d la thang co 31 ngay! \n", month);
 							break;
 						case 5:
 							dayMax = day + 31*2 + 28 + 30;
-							printf("Thang %d la thang co 31 ngay! \n", month);
 							break;
 						case 7:
 							dayMax = day + 31*3 + 28 + 30*2;
-							printf("Thang %d la thang co 31 ngay! \n", month);
 							break;
 						case 8:
 							dayMax = day + 31*4 + 28 + 30*2;
-							printf("Thang %d la thang co 31 ngay! \n", month);
 							break;
 						case 10:
 							dayMax = day + 31*5 + 28 + 30*3;
-							printf("Thang %d la thang co 31 ngay! \n", month);
 							break;
 						case 12:
 							dayMax = day + 31*6 + 28 + 30*4;
@@ -108,15 +93,12 @@ int main(){
 							break;
 						case 4:
 							dayMax = day + 31*2 + 28;
-							printf("Thang %d la thang co 30 ngay! \n", month);
 							break;
 						case 6:
 							dayMax = day + 31*3 + 28 + 30;
-							printf("Thang %d la thang co 30 ngay! \n", month);
 							break;
 						case 9:
 							dayMax = day + 31*5 + 28 + 30*2;
-							printf("Thang %d la thang co 30 ngay! \n", month);
 							break;
 						case 11:
 							dayMax = day + 31*6 + 28 + 30*3;
