@@ -18,7 +18,7 @@ int main(){
 			j = i;
 			while(j < n && arr[j] > 0){
 				count++;
-				if(count >= max){
+				if(count > max){
 					max = count;
 					j++;
 				} else{
@@ -34,8 +34,4 @@ int main(){
 	}
 
 	printf("So luong day so duong dai nhat la: %d\n", max);
-	printf("Day co so luong so duong lien tiep dai nhat la: ");
-	for(int i = j - max +1 ; i < j; i++ ){
-		printf("%d ",arr[i]);
-	}
 }
